@@ -104,6 +104,24 @@
       color: #9191a9;
     }
 
+    .product-title {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      color: #c5c5c5;
+    }
+
+    .product-subtitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #0c0d36;
+      margin-bottom: 20px;
+    }
+
     .nav-pills {
       .nav-link {
         font-weight: normal;
@@ -118,6 +136,15 @@
           border-bottom: 2px solid #0c0d36;
           background: none;
         }
+      }
+    }
+
+    .gallery-container {
+      .delete-gallery {
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: 0;
       }
     }
   }
